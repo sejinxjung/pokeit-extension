@@ -17,9 +17,9 @@
 
 ## What is POKEIT? / POKEIT이 뭔가요?
 
-POKEIT is a free Chrome extension that turns your browser into a visual QA tool for AI-powered development. Inspect any element, leave a QA note in plain language, and copy the full component context — tree, computed styles, source paths — straight to your AI coding agent.
+POKEIT is a free Chrome extension that turns your browser into a visual QA tool for AI-powered development. Inspect any element, leave a QA note in plain language, and copy the full component context — tree, computed styles, source paths — straight to your AI coding agent. No npm packages, no project config — just install the extension and go.
 
-POKEIT은 브라우저를 AI 개발용 비주얼 QA 도구로 바꿔주는 크롬 익스텐션입니다. 아무 컴포넌트나 클릭해서 검사하고, QA 노트를 남긴 뒤, 복사버튼을 눌러보세요! 컴포넌트 트리·스타일·소스 경로 등 전체 컨텍스트를 AI 코딩 에이전트에 바로 붙여넣을 수 있습니다.
+POKEIT은 브라우저를 AI 개발용 비주얼 QA 도구로 바꿔주는 크롬 익스텐션입니다. 아무 컴포넌트나 클릭해서 검사하고, QA 노트를 남긴 뒤, 복사버튼을 눌러보세요! 컴포넌트 트리·스타일·소스 경로 등 전체 컨텍스트를 AI 코딩 에이전트에 바로 붙여넣을 수 있습니다. npm 설치도, 프로젝트 설정도 필요 없어요. 익스텐션만 깔면 바로 쓸 수 있습니다.
 
 ---
 
@@ -94,7 +94,7 @@ Click the POKEIT icon on any webpage to start inspecting.
 ## Roadmap / 앞으로의 계획
 
 We bought the domain for 5 years — POKEIT is here to stay. Actively developing new features and improvements.
-pokeit.app 도메인을 5년 샀습니다. — POKEIT 포킷은 모두가 더 예쁜 디자인을 할 수 있도록 계속 해서 나아가겠습니다!
+pokeit.app 도메인을 5년 샀습니다... — POKEIT 포킷은 모두가 더 예쁜 디자인을 할 수 있도록 계속해서 디벨롭하겠습니다!
 
 ---
 
@@ -106,6 +106,7 @@ Got feedback, ideas, or bugs to report? Reach out:
 
 - **KR:** [@0x3den](https://x.com/0x3den)
 - **EN:** [@sejinxjung](https://x.com/sejinxjung)
+- **LinkedIn:** [sejinxjung](https://linkedin.com/in/sejinxjung)
 
 ---
 
