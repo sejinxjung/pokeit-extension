@@ -53,7 +53,7 @@ One click copies all notes with full component context. Paste into Claude Code, 
 |---------|-------------|
 | **Component Tree** | Reads React fiber — component names, source file paths, and line numbers. 리액트 구조를 읽어 컴포넌트 이름, 소스 파일 경로, 라인 번호를 표시합니다. |
 | **Computed Styles** | Shows resolved CSS values and detects spacing overlaps between parent and child. 계산된 CSS 값을 보여주고, 부모-자식 간 간격을 표시합니다. |
-| **QA Notes** | Leave plain-language notes on any element. Site-level copy and delete from the popup. 아무 요소에 메모 남기고, 팝업에서 사이트별로 복사·삭제할 수 있어요. |
+| **QA Notes** | Leave plain-language notes on any element. Notes are saved per site and persist across page reloads. 아무 요소에 메모 남기고, 사이트별로 자동 저장됩니다. 새로고침해도 안 날아가요. |
 | **One-Click Copy** | Exports all notes with full context — tree, styles, source paths — formatted for AI agents. 트리, 스타일, 소스 경로 — 전부 AI 에이전트용 포맷으로 한 방에 내보냅니다. |
 | **Zero Config** | Works on any React site — production or localhost. No project setup required. 어떠한 React 사이트에서도 잘 동작합니다. npm 등 프로젝트 별 설정이 필요 없습니다. |
 
