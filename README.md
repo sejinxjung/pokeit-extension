@@ -62,33 +62,9 @@ One click copies all notes with full component context. Paste into Claude Code, 
 
 ## Installation / 설치 방법
 
-> Chrome Web Store approval is taking longer than expected, so we're releasing the extension here first. Install manually for now — the store link will be added once approved.
-> 크롬 웹 스토어 승인이 좀 오래 걸려서, 일단 여기서 먼저 공개합니다. 승인되면 스토어 링크 추가할게요!
+**[Chrome Web Store](https://chromewebstore.google.com/detail/pokeit-%E2%80%94-visual-qa-inspec/dbjfemfcgaebmpnkppokcokefnihealm)** — 클릭 한 번이면 끝!
 
-### 1. Download / 다운로드
-
-Download **[pokeit-extension.zip](./pokeit-extension.zip)** from this repository.
-
-**[pokeit-extension.zip](./pokeit-extension.zip)** 받아주세요.
-
-### 2. Unzip / 압축 해제
-
-Extract the zip file to any folder.
-
-아무 폴더에 압축 풀면 됩니다.
-
-### 3. Load in Chrome / Chrome에 로드
-
-1. Open `chrome://extensions` / `chrome://extensions` 열기
-2. Enable **Developer mode** (top right toggle) / 우측 상단 **개발자 모드** 켜기
-3. Click **Load unpacked** / **압축해제된 확장 프로그램을 로드합니다** 클릭
-4. Select the extracted folder / 압축 해제한 폴더 선택
-
-### 4. Done! / 끝!
-
-Click the POKEIT icon on any webpage to start inspecting.
-
-아무 웹페이지에서 포킷 아이콘 누르면 바로 시작!
+수동 설치를 원하시면 [pokeit-extension.zip](./pokeit-extension.zip)을 다운로드해서 `chrome://extensions` → 개발자 모드 → 압축해제된 확장 프로그램 로드로 설치할 수 있습니다.
 
 ---
 
