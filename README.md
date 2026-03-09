@@ -19,7 +19,7 @@
 
 POKEIT is a free Chrome extension that turns your browser into a visual QA tool for AI-powered development. Inspect any element, leave a QA note in plain language, and copy the full component context — tree, computed styles, source paths — straight to your AI coding agent. No npm packages, no project config — just install the extension and go.
 
-POKEIT은 브라우저를 AI 개발용 비주얼 QA 도구로 바꿔주는 크롬 익스텐션입니다. 아무 컴포넌트나 클릭해서 검사하고, QA 노트를 남긴 뒤, 복사버튼을 눌러보세요! 컴포넌트 트리·스타일·소스 경로 등 전체 컨텍스트를 AI 코딩 에이전트에 바로 붙여넣을 수 있습니다. npm 설치도, 프로젝트 설정도 필요 없어요. 익스텐션만 깔면 바로 쓸 수 있습니다.
+POKEIT은 브라우저를 AI 개발용 비주얼 QA 도구로 바꿔주는 크롬 익스텐션입니다. 고치고 싶은 UI를 폭! 찍으면 React 트리·스타일·소스 경로가 통째로 복사되고, 그대로 AI 에이전트한테 넘기면 됩니다. npm 설치 없이, 프로젝트 세팅 없이, 어떤 React 사이트에서든 익스텐션만 깔면 바로 동작합니다.
 
 ---
 
@@ -35,7 +35,7 @@ Press `⌥P` or Option-click any element. POKEIT reads the React component tree,
 
 ### 2. Annotate / 메모
 Leave a note — *"Make this 16px"* or *"Align to grid"*. Stack as many notes as you need.
-*"패딩 24px로"*, *"그리드에 맞춰"* — 이런 식으로 메모 남기면 됩니다. 여러 개 쌓아도 OK.
+*"이 컴포넌트 사이 갭을 24px로 줄여줘"* — 이런 식으로 메모 남기면 됩니다. 여러 개 쌓아도 OK.
 
 ### 3. Copy to AI / AI에게 전달
 One click copies all notes with full component context. Paste into Claude Code, Cursor, or any AI agent.
@@ -51,12 +51,12 @@ One click copies all notes with full component context. Paste into Claude Code, 
 
 | Feature | Description |
 |---------|-------------|
-| **Component Tree** | Reads React fiber — component names, source file paths, and line numbers. 리액트 구조를 읽어 컴포넌트 이름, 소스 파일 경로, 라인 번호를 표시합니다. |
-| **Computed Styles** | Shows resolved CSS values and detects spacing overlaps between parent and child. 계산된 CSS 값을 보여주고, 부모-자식 간 간격을 표시합니다. |
-| **QA Notes** | Leave plain-language notes on any element. Notes are saved per site and persist across page reloads. 아무 요소에 메모 남기고, 사이트별로 자동 저장됩니다. 새로고침해도 안 날아가요. |
+| **Component Tree** | Reads React fiber — component names, source file paths, and line numbers. React fiber를 읽어서 컴포넌트 이름, 소스 파일 경로, 라인 번호까지 잡아줍니다. |
+| **Computed Styles** | Shows resolved CSS values and detects spacing overlaps between parent and child. 계산된 CSS 값을 보여주고, 부모-자식 간 간격 겹침도 감지합니다. |
+| **QA Notes** | Leave plain-language notes on any element. Notes are saved per site and persist across page reloads. 아무 요소에나 메모를 남길 수 있고, 사이트별로 자동 저장됩니다. 새로고침해도 날아가지 않습니다. |
 | **Screenshot** | Download a screenshot of the current page with one click from the QA panel. QA 패널에서 클릭 한 번으로 현재 페이지 스크린샷을 저장할 수 있습니다. |
-| **One-Click Copy** | Exports all notes with full context — tree, styles, source paths — formatted for AI agents. 트리, 스타일, 소스 경로 — 전부 AI 에이전트용 포맷으로 한 방에 내보냅니다. |
-| **Zero Config** | Works on any React site — production or localhost. No project setup required. 어떠한 React 사이트에서도 잘 동작합니다. npm 등 프로젝트 별 설정이 필요 없습니다. |
+| **One-Click Copy** | Exports all notes with full context — tree, styles, source paths — formatted for AI agents. 노트 + 트리 + 스타일 + 소스 경로를 AI 에이전트용 포맷으로 한 번에 복사합니다. |
+| **Zero Config** | Works on any React site — production or localhost. No project setup required. 어떤 React 사이트든 바로 동작합니다. 프로젝트별 설정이 필요 없습니다. |
 
 ---
 
@@ -70,7 +70,7 @@ One click copies all notes with full component context. Paste into Claude Code, 
 
 ## Roadmap / 앞으로의 계획
 
-We bought the domain for 5 years — POKEIT is here to stay. Actively developing new features and improvements.
+I bought the domain for 5 years — POKEIT is here to stay. Actively developing new features and improvements.
 pokeit.app 도메인을 5년 샀습니다... — POKEIT 포킷은 모두가 더 예쁜 디자인을 할 수 있도록 계속해서 디벨롭하겠습니다!
 
 ---
