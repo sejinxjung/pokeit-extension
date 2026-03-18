@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.2.1-8c6ff7?style=flat-square" alt="Version 0.2.1" />
+  <img src="https://img.shields.io/badge/version-0.2.2-8c6ff7?style=flat-square" alt="Version 0.2.2" />
   <img src="https://img.shields.io/badge/chrome-extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome Extension" />
 </p>
 
@@ -57,6 +57,7 @@ One click copies all notes with full component context. Paste into Claude Code, 
 | Feature | Description |
 |---------|-------------|
 | **Component Tree** | Reads React fiber — component names, source file paths, and line numbers. React fiber를 읽어서 컴포넌트 이름, 소스 파일 경로, 라인 번호까지 잡아줍니다. |
+| **Parent Component** | Clicking a plain HTML element (div, span) resolves the nearest React component — shows "ProfileCard > div" instead of just "div". 일반 HTML 요소를 클릭하면 가장 가까운 React 컴포넌트를 찾아서 "ProfileCard > div"처럼 보여줍니다. |
 | **Computed Styles** | Shows resolved CSS values and detects spacing overlaps between parent and child. 계산된 CSS 값을 보여주고, 부모-자식 간 간격 겹침도 감지합니다. |
 | **Keyboard Navigation** | Use `↑` `↓` to traverse parent/child elements without re-clicking. `↑` `↓` 키로 부모/자식 요소를 마우스 없이 탐색할 수 있습니다. |
 | **Smart Class Filter** | Filters out hashed class names (CSS Modules, styled-components, Emotion, StyleX) and shows clean Tailwind utilities. 해시된 클래스명은 자동 필터링하고, Tailwind 유틸리티는 깔끔하게 보여줍니다. |
