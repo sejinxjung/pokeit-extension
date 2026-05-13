@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.2.2-8c6ff7?style=flat-square" alt="Version 0.2.2" />
+  <img src="https://img.shields.io/badge/version-0.2.4-8c6ff7?style=flat-square" alt="Version 0.2.4" />
   <img src="https://img.shields.io/badge/chrome-extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome Extension" />
 </p>
 
@@ -61,9 +61,9 @@ One click copies all notes with full component context. Paste into Claude Code, 
 | **Computed Styles** | Shows resolved CSS values and detects spacing overlaps between parent and child. 계산된 CSS 값을 보여주고, 부모-자식 간 간격 겹침도 감지합니다. |
 | **Keyboard Navigation** | Use `↑` `↓` to traverse parent/child elements without re-clicking. `↑` `↓` 키로 부모/자식 요소를 마우스 없이 탐색할 수 있습니다. |
 | **Smart Class Filter** | Filters out hashed class names (CSS Modules, styled-components, Emotion, StyleX) and shows clean Tailwind utilities. 해시된 클래스명은 자동 필터링하고, Tailwind 유틸리티는 깔끔하게 보여줍니다. |
-| **QA Notes** | Leave plain-language notes on any element. Notes are saved per site and persist across page reloads. 아무 요소에나 메모를 남길 수 있고, 사이트별로 자동 저장됩니다. 새로고침해도 날아가지 않습니다. |
+| **QA Notes** | Leave plain-language notes on any element. Notes are grouped per Page (panel pins the current page to the top with a `here` badge) and persist across reloads. 아무 요소에나 메모를 남길 수 있고, Page별로 그룹핑되어 저장됩니다. 패널에선 지금 보고 있는 페이지가 `here` 배지와 함께 맨 위로 올라옵니다. 새로고침해도 날아가지 않습니다. |
+| **One-Click Copy** | Exports notes grouped per Page — each group carries its own URL header, long element text truncated at 60 chars. Tree, styles, and source paths included, formatted for AI agents. 복사하면 Page별로 그룹핑되어 각 그룹마다 자기 URL이 박힙니다. 긴 텍스트는 60자에서 자동 줄임. 트리·스타일·소스 경로까지 AI 에이전트용 포맷으로 출력됩니다. |
 | **Screenshot** | Download a screenshot of the current page with one click from the QA panel. QA 패널에서 클릭 한 번으로 현재 페이지 스크린샷을 저장할 수 있습니다. |
-| **One-Click Copy** | Exports all notes with full context — tree, styles, source paths — formatted for AI agents. 노트 + 트리 + 스타일 + 소스 경로를 AI 에이전트용 포맷으로 한 번에 복사합니다. |
 | **Zero Config** | Works on any React site — production or localhost. No project setup required. 어떤 React 사이트든 바로 동작합니다. 프로젝트별 설정이 필요 없습니다. |
 
 ---
